@@ -1,0 +1,90 @@
+body{
+    background-color: #effaf6;
+}
+
+
+header{
+    
+    border-top: 4px solid;
+    border-right: 4px solid;
+    border-left: 4px solid;
+    border-bottom: 2px solid;
+}
+
+article{
+    border-top: 2px solid;
+    border-right: 4px solid;
+    border-left: 4px solid;
+    
+    display: flow-root;
+}
+
+footer{
+    border: 4px solid;
+    
+}
+
+
+#cr7{
+    float: left;   /* Direccion donde la imagen/elemento estara alineado */
+    margin-right: 10px; /* cuanto espacio hay entre el elemnto y los demas en la misma linea hacia la derecha */
+    border-right: 7px solid;
+
+}
+
+
+#gif1{
+    float: left;
+    margin-left: 170px;
+}
+
+#gif2{
+    float: right;
+    margin-right: 180px;
+    
+}
+
+.gg-instagram {    /* Icono de instragram (formato sacado de internet css.gg) */
+    
+    float: left;
+    margin-right: 10px;
+
+
+    /*
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px */
+
+    /* Sin este codigo aun aparece el icono, sera porque esta referenciado en el index? */
+}
+.gg-browse {      /* Icono de lupa (formato sacado de internet css.gg) */
+    
+    float: left;
+    margin-right: 10px;
+    
+    /*display: block;
+    position: relative;
+    transform: scale(var(--ggs,1));
+    box-sizing: border-box;
+    width: 16px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 3px;
+    background:
+        linear-gradient(
+            to left,
+            currentcolor 10px,
+            transparent 0
+        ) no-repeat center 2px/8px 2px,
+        linear-gradient(
+            to left,
+            currentcolor 10px,
+            transparent 0
+        ) no-repeat center 6px/8px 2px*/
+}
